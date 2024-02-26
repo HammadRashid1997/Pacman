@@ -2,7 +2,7 @@
 
 **Pacman game Directions:**
 
-The main purpose of this document is to provide a brief help for those who want  to make this game
+The main purpose of this document is to provide a brief help for those who want  to make this game.
 
 Functions to be used in the game:
 
