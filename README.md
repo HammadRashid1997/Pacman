@@ -1,5 +1,7 @@
 # 🔔 Pacman Game
 
+![Pacman](../images/pacman.png)
+
 **Pacman game Directions:**
 
 The main purpose of this document is to provide a brief help for those who want  to make this game.
