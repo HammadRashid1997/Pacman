@@ -1,4 +1,4 @@
-# 🔔 Pacman Game
+![Pacman](/images/pacman.svg)
 
 **Pacman game Directions:**
 
