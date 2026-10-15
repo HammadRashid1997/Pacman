@@ -1,17 +1,43 @@
-![Pacman](/images/pacman.svg)
+# 🎮 Pacman Game
 
-**Pacman game Directions:**
+![Pacman](./images/pacman.svg)
 
-The main purpose of this document is to provide a brief help for those who want  to make this game.
+A simple Pacman game project focused on understanding the fundamentals of game development, screen positioning, map rendering, and random enemy movement.
 
-Functions to be used in the game:
+## 📌 About the Project
 
-1. gotoxy function: This function is used for setting the position of the cursor on the screen and is used to move the cursor on the screen.
+This project explores the basic logic and functions used to create a Pacman-style game. It provides a practical introduction to handling console output, managing positions on a game map, displaying collectibles, and generating random enemy movements.
 
-2. food function: This function prints the food or maybe the source of points for the player. It considers the locations on the map by dealing with the rows and columns and then printing the dot on the screen in the map.
+## 🕹️ Game Mechanics & Core Functions
 
-3. display map: This function is used to display the map on the screen.
+### 1. `gotoxy()`
+Moves the cursor to a specified position on the screen. This allows game elements to appear at particular rows and columns.
 
-4. system("cls") is used to clear the screen
+### 2. `food()`
+Displays food items on the game map that act as collectible points for the player. It uses row and column positions to determine where the food appears.
 
-5. srand time is used to genrate the movement of the enemy randomly
+### 3. `displayMap()`
+Renders the game map on the screen, providing the layout in which the player, food, and enemies interact.
+
+### 4. `system("cls")`
+Clears the console screen to refresh the display during gameplay. This command is commonly used in Windows-based C/C++ console applications.
+
+### 5. `srand()` and `time()`
+Initialize the random number generator using the current time. This helps produce varied random sequences, which can be used to determine enemy movements.
+
+## 🛠️ Concepts Covered
+
+- Console-based game development
+- Cursor positioning and screen manipulation
+- Map rendering using rows and columns
+- Collectible items and scoring concepts
+- Random number generation
+- Basic game logic and interaction
+
+## 🎯 Project Objective
+
+The goal of this project is to understand how simple programming functions work together to build the foundation of a Pacman-style game.
+
+---
+
+*Built as a learning project to explore programming fundamentals through game development.*
